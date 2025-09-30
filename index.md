@@ -40,20 +40,9 @@ Instead of hardcoding sequences of events in a script, you can design and trigge
 
 Ready to enhance your Unity development workflow? Follow these essential steps:
 
-1. [Installation Guide]({% link docs/installation.md %}) - Get Function Player installed in your project
-2. [Quick Start Tutorial]({% link docs/quick-start.md %}) - Learn the basics in 5 minutes
-3. [API Reference]({% link docs/api.md %}) - Complete technical documentation for developers
-
-## Documentation
-
-### 🚀 **Installation**
-Step-by-step installation guide to get Function Player running in your Unity project.
-
-### ⚡ **Quick Start**  
-Learn the essentials and start using Function Player in just 5 minutes.
-
-### 📖 **API Reference**
-Complete technical documentation with code examples and implementation details.
+1. [Installation Guide](docs/installation.md) - Get Function Player installed in your project
+2. [Quick Start Tutorial](docs/quick-start.md) - Learn the basics in 5 minutes
+3. [API Reference](docs/api.md) - Complete technical documentation for developers
 
 ---
 

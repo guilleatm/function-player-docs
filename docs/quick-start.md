@@ -6,7 +6,7 @@ nav_order: 2
 
 # Quick Start Guide
 
-Get up and running with Function Player in just 5 minutes!
+Get up and running with Function Player in just 3 minutes!
 
 ## Video Tutorial
 
@@ -16,15 +16,15 @@ Watch this complete tutorial to see Function Player in action:
 
 ## Step 1: Add Function Player Component
 
-1. Create a GameObject in your scene
-2. Add the **Function Player** component to it
-3. The custom inspector will appear with an **"Add Item"** button
+1. Create a `GameObject` in your scene
+2. Add the `Function Player` component to it
+3. You will see a custom inspector with a `Create Item` button
 
 ## Step 2: Create Your First Method Call
 
-1. Click **"Add Item"** in the Function Player inspector
+1. Click `Create Item` in the Function Player inspector
 2. A new item will appear with these fields:
-   - **Target**: Select a GameObject
+   - **Target**: Select a `GameObject`
    - **Component**: Choose a component from the dropdown
    - **Method**: Pick a method to call
 
@@ -42,10 +42,10 @@ public class TestScript : MonoBehaviour
 }
 ```
 
-1. **Target**: Select the GameObject with `TestScript`
-2. **Component**: Choose "TestScript" 
-3. **Method**: Select "SayHello"
-4. **Parameter**: Enter "World" in the message field
+1. **Target**: Select the GameObject with the `TestScript` component
+2. **Component**: Choose `TestScript` component 
+3. **Method**: Select `SayHello` method
+4. **Parameter**: Enter `"World"` in the message field
 
 ## Step 4: Execute the Sequence
 
@@ -80,6 +80,6 @@ Function Player automatically creates UI for:
 
 ## What's Next?
 
-- [API Reference]({% link docs/api.md %}) - Technical documentation and advanced features
+- [API Reference](docs/api.md) - Technical documentation and advanced features
 - Experiment with coroutines for animations and timed sequences
 - Try cross-GameObject method calls for complex interactions
