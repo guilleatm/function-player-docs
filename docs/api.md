@@ -289,4 +289,4 @@ private bool ValidateLevel(int level)
 
 ---
 
-For more detailed examples and advanced usage patterns, see our [GitHub repository](https://github.com/guilleatm/function-player-docs) or check out the [Use Cases]({% link docs/use-cases.md %}) section.
+For more detailed examples and advanced usage patterns, see our [GitHub repository](https://github.com/guilleatm/function-player-docs).

@@ -78,11 +78,9 @@ public class TestScript : MonoBehaviour
 
 ## What's Next?
 
-Now that you've executed your first function, explore more features:
+Now that you've executed your first function, explore more:
 
-- [Getting Started Guide]({% link docs/getting-started.md %}) - Learn core concepts
-- [Advanced Features]({% link docs/advanced-features.md %}) - Discover powerful capabilities
-- [Use Cases]({% link docs/use-cases.md %}) - Real-world examples
+- [API Reference]({% link docs/api.md %}) - Complete technical documentation with advanced features and examples
 
 ## Pro Tips
 

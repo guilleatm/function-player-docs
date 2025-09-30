@@ -51,4 +51,4 @@ If you encounter issues during installation:
 - Ensure you're using a supported Unity version
 - Check that you have sufficient permissions to write to the project directory
 - Try restarting Unity after installation
-- See our [Troubleshooting Guide]({% link docs/troubleshooting.md %}) for common issues
+- Contact support through the Unity Asset Store for assistance
