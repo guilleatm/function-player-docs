@@ -28,9 +28,15 @@ Watch this complete tutorial to see Function Player in action:
    - **Component**: Choose a component from the dropdown
    - **Method**: Pick a method to call
 
-## Step 3: Configure the Method Call
+## Step 3: Execute the Sequence
 
-Example with a simple test script:
+1. **Enter Play mode** (sequences only run during Play)
+2. Click the **"Play"** button in the Function Player inspector
+3. Your method calls will execute in order
+
+## Example Setup
+
+Here's a complete example using a simple test script:
 
 ```csharp
 public class TestScript : MonoBehaviour
@@ -42,16 +48,13 @@ public class TestScript : MonoBehaviour
 }
 ```
 
+**Configuration**:
 1. **Target**: Select the GameObject with the `TestScript` component
 2. **Component**: Choose `TestScript` component 
 3. **Method**: Select `SayHello` method
 4. **Parameter**: Enter `"World"` in the message field
 
-## Step 4: Execute the Sequence
-
-1. **Enter Play mode** (sequences only run during Play)
-2. Click the **"Play"** button in the Function Player inspector
-3. Check the Console - you'll see "Hello: World"
+**Result**: You'll see "Hello: World" in the Console
 
 ## Built-in Utility Methods
 
