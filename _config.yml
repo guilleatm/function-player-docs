@@ -1,5 +1,5 @@
-title: Function Player Documentation
-description: Official documentation for Function Player - A Unity plugin for visual function execution and debugging
+title: Function Player Docs
+description: Official documentation for Function Player - A Unity plugin for visual function execution
 
 # For GitHub Pages native support
 remote_theme: just-the-docs/just-the-docs
@@ -7,8 +7,8 @@ remote_theme: just-the-docs/just-the-docs
 url: https://guilleatm.github.io/function-player-docs
 
 aux_links:
-  "Unity Asset Store": "https://assetstore.unity.com/packages/tools/utilities/function-player-329120"
-  "Support": "mailto:support@functionplayer.com"
+  "See on Unity Asset Store": "https://assetstore.unity.com/packages/tools/utilities/function-player-329120"
+  "Support": "mailto:guillearnautm@gmail.com"
 
 # Enable search functionality
 search_enabled: true
@@ -23,8 +23,8 @@ footer_content: "Copyright &copy; 2025 Function Player. All rights reserved."
 color_scheme: dark
 
 # Enable back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
+back_to_top: false
+# back_to_top_text: "Back to top"
 
 # Enable edit this page link (you can customize this later)
 gh_edit_link: true
