@@ -18,8 +18,10 @@ Unity 2020.3 LTS or newer
 4. Click **Download** then **Import**
 5. Import all files when prompted
 
+> **Need help with Package Manager?** See [Unity's official Package Manager documentation](https://docs.unity3d.com/6000.2/Documentation/Manual/upm-ui-install2.html)
+
 ## Verify Installation
 
 You should now see a **Function Player** component available when adding components to GameObjects.
 
-**Next:** [Quick Start Guide]({% link docs/quick-start.md %})
+**Next:** [Quick Start]({% link docs/quick-start.md %})
