@@ -6,35 +6,7 @@ Official documentation site for Function Player - A Unity plugin for visual func
 
 This repository contains the source code for the Function Player documentation website, built with [Jekyll](https://jekyllrb.com/) and the [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme.
 
-## Local Development
-
-### Prerequisites
-
-- Ruby (version 3.0 or higher)
-- Bundler gem
-- Git
-
-### Setup
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/guilleatm/function-player-docs.git
-   cd function-player-docs
-   ```
-
-2. Install dependencies:
-   ```bash
-   bundle install
-   ```
-
-3. Run the development server:
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-4. Open your browser and navigate to `http://localhost:4000`
-
-The site will automatically rebuild when you make changes to the source files.
+The site is automatically built and deployed using GitHub Pages.
 
 ## Contributing
 

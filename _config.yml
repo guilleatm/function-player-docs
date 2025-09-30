@@ -17,8 +17,8 @@ nav_sort: case_insensitive
 # Footer content
 footer_content: "Copyright &copy; 2025 Function Player. All rights reserved."
 
-# Color scheme
-color_scheme: nil
+# Color scheme - custom Function Player dark theme
+color_scheme: function_player_dark
 
 # Enable back to top link
 back_to_top: true
