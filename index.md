@@ -6,22 +6,35 @@ nav_order: 0
 
 # Function Player Documentation
 
-Welcome to the official documentation for **Function Player**, a powerful Unity plugin that revolutionizes how you execute and debug functions in your Unity projects.
+Welcome to the official documentation for **Function Player**, a powerful Unity Editor tool that bridges the gap between code and editor by enabling you to call component methods instantly from the Unity Inspector.
 
 ## What is Function Player?
 
-Function Player is a Unity editor tool that allows you to visually execute, debug, and monitor functions in real-time. Whether you're developing gameplay mechanics, testing systems, or debugging complex interactions, Function Player provides an intuitive interface to call methods, inspect results, and understand your code's behavior.
+Function Player lets you execute almost any method from any component directly in the Unity Editor. Pass arguments (including primitive types and most Unity objects), run coroutines that can pause execution until conditions are met, and even manipulate built-in Unity properties like Transform.position via setters.
+
+Instead of hardcoding sequences of events in a script, you can design and trigger them interactively—waiting for user input, a timed delay, or in-game events—directly from the Inspector.
+
+## See Function Player in Action
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M9oXSxy-nHE" title="Function Player Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 [Get Function Player on Unity Asset Store](https://assetstore.unity.com/packages/tools/utilities/function-player-329120){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Key Features
 
-- **Visual Function Execution**: Execute any public method with a simple click
-- **Real-time Parameter Input**: Dynamically set parameters through an intuitive UI
-- **Return Value Inspection**: See function results immediately
-- **Debug Integration**: Step through code and monitor execution
-- **Performance Monitoring**: Track execution times and performance metrics
-- **Custom Inspectors**: Tailored UI for different parameter types
+- **Instant Method Execution**: Call component methods directly from the Unity Inspector
+- **Parameter Support**: Pass arguments including primitive types and Unity objects
+- **Coroutine Support**: Run coroutines with conditional pauses and delays
+- **Property Manipulation**: Modify built-in Unity properties via setters
+- **Interactive Design**: Create event sequences without hardcoding
+- **Workflow Automation**: Perfect for developers and artists alike
+
+## Who Is This For?
+
+- **Developers**: Rapid prototyping and testing without recompiling
+- **Artists**: Automating repetitive tasks through the Inspector
+- **Designers**: Interactive gameplay sequencing and event triggering
+- **Anyone**: Looking to streamline their Unity workflow
 
 ## Getting Started
 
@@ -33,7 +46,7 @@ Ready to enhance your Unity development workflow? Follow these essential steps:
 
 ## Documentation
 
-### � **Installation**
+### 🚀 **Installation**
 Step-by-step installation guide to get Function Player running in your Unity project.
 
 ### ⚡ **Quick Start**  
@@ -49,4 +62,4 @@ Complete technical documentation with code examples and implementation details.
 - Read the [API Reference]({% link docs/api.md %}) for detailed technical information
 - Contact support through the Unity Asset Store for personalized assistance
 
-*Function Player is designed to make Unity development more efficient, intuitive, and enjoyable. Let's build better games together!*
+*Whether you're a developer prototyping gameplay or an artist automating repetitive tasks, Function Player can dramatically streamline your workflow and spark new creative possibilities.*

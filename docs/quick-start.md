@@ -8,82 +8,78 @@ nav_order: 2
 
 Get up and running with Function Player in just 5 minutes!
 
-## Step 1: Open Function Player
+## Video Tutorial
 
-After [installation]({% link docs/installation.md %}), open the Function Player window:
+Watch this complete tutorial to see Function Player in action:
 
-1. Go to **Window > Function Player > Function Player Window**
-2. Dock the window wherever convenient in your Unity layout
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lQm3VVnPc0w" title="Function Player Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Step 2: Select a Target Object
+## Step 1: Add Function Player Component
 
-Function Player works with GameObjects that have MonoBehaviour components:
+1. Create a GameObject in your scene
+2. Add the **Function Player** component to it
+3. The custom inspector will appear with an **"Add Item"** button
 
-1. Select a GameObject in your scene that has a script component
-2. The Function Player window will automatically detect available methods
-3. You'll see a list of public methods that can be executed
+## Step 2: Create Your First Method Call
 
-## Step 3: Execute Your First Function
+1. Click **"Add Item"** in the Function Player inspector
+2. A new item will appear with these fields:
+   - **Target**: Select a GameObject
+   - **Component**: Choose a component from the dropdown
+   - **Method**: Pick a method to call
 
-Let's execute a simple function:
+## Step 3: Configure the Method Call
 
-1. Find a method in the list (e.g., a `SetActive` method)
-2. If the method has parameters, input values will appear
-3. Click the **Execute** button next to the method
-4. Watch the function execute in real-time!
-
-## Step 4: Monitor Results
-
-Function Player provides immediate feedback:
-
-- **Return Values**: See what the function returned
-- **Execution Time**: Monitor performance
-- **Console Output**: Any Debug.Log messages appear in context
-
-## Example: Testing a Simple Script
-
-Here's a simple script to test Function Player:
+Example with a simple test script:
 
 ```csharp
-using UnityEngine;
-
 public class TestScript : MonoBehaviour
 {
-    public int health = 100;
-    
-    public void TakeDamage(int damage)
+    public void SayHello(string message)
     {
-        health -= damage;
-        Debug.Log($"Took {damage} damage. Health now: {health}");
-    }
-    
-    public int GetHealth()
-    {
-        return health;
-    }
-    
-    public void ResetHealth()
-    {
-        health = 100;
-        Debug.Log("Health reset to 100");
+        Debug.Log("Hello: " + message);
     }
 }
 ```
 
-### Try These Actions:
+1. **Target**: Select the GameObject with `TestScript`
+2. **Component**: Choose "TestScript" 
+3. **Method**: Select "SayHello"
+4. **Parameter**: Enter "World" in the message field
 
-1. **Call `TakeDamage(25)`** - Input 25 in the parameter field
-2. **Call `GetHealth()`** - See the current health value
-3. **Call `ResetHealth()`** - Reset health back to 100
+## Step 4: Execute the Sequence
+
+1. **Enter Play mode** (sequences only run during Play)
+2. Click the **"Play"** button in the Function Player inspector
+3. Check the Console - you'll see "Hello: World"
+
+## Built-in Utility Methods
+
+Target the Function Player GameObject itself to access:
+
+- **`Wait(float seconds)`** - Pause execution between method calls
+- **`Log(string message)`** - Output debug messages
+
+## Creating Sequences
+
+Add multiple items to create sequences:
+
+1. Item 1: `TestScript.SayHello("Starting")`
+2. Item 2: `FunctionPlayer.Wait(2.0)`  
+3. Item 3: `TestScript.SayHello("Done")`
+
+Use the **Up/Down** arrows to reorder items.
+
+## Supported Parameter Types
+
+Function Player automatically creates UI for:
+
+- **Basic**: `bool`, `int`, `float`, `string`, `enum`
+- **Unity**: `Vector3`, `Color`, `AnimationCurve`, `Gradient`
+- **Custom**: Any `[System.Serializable]` class
 
 ## What's Next?
 
-Now that you've executed your first function, explore more:
-
-- [API Reference]({% link docs/api.md %}) - Complete technical documentation with advanced features and examples
-
-## Pro Tips
-
-- **Pin Frequently Used Methods**: Right-click methods to pin them for quick access
-- **Use Keyboard Shortcuts**: Press `Ctrl+E` (Windows) or `Cmd+E` (Mac) to execute selected methods
-- **Batch Operations**: Hold Shift to select multiple methods for batch execution
+- [API Reference]({% link docs/api.md %}) - Technical documentation and advanced features
+- Experiment with coroutines for animations and timed sequences
+- Try cross-GameObject method calls for complex interactions
