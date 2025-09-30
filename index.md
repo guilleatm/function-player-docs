@@ -24,35 +24,28 @@ Function Player is a Unity editor tool that allows you to visually execute, debu
 
 ## Getting Started
 
-Ready to enhance your Unity development workflow? Start with our quick setup guide:
+Ready to enhance your Unity development workflow? Follow these essential steps:
 
 1. [Installation Guide]({% link docs/installation.md %}) - Get Function Player installed in your project
 2. [Quick Start Tutorial]({% link docs/quick-start.md %}) - Learn the basics in 5 minutes
-3. [Basic Usage]({% link docs/getting-started.md %}) - Understand core concepts and workflows
+3. [API Reference]({% link docs/api.md %}) - Complete technical documentation for developers
 
-## Documentation Sections
+## Documentation
 
-### 📚 **Tutorials**
-Step-by-step guides to help you master Function Player features.
+### � **Installation**
+Step-by-step installation guide to get Function Player running in your Unity project.
 
-### ⚡ **Quick Reference**  
-Fast access to common tasks and workflows.
-
-### 🔧 **Advanced Features**
-Deep dive into powerful capabilities and customization options.
-
-### 🎮 **Use Cases**
-Real-world examples and best practices from game development.
+### ⚡ **Quick Start**  
+Learn the essentials and start using Function Player in just 5 minutes.
 
 ### 📖 **API Reference**
-Complete technical documentation for developers.
+Complete technical documentation with code examples and implementation details.
 
 ---
 
 ## Need Help?
 
-- Check our [Frequently Asked Questions]({% link docs/faq.md %})
-- Browse the [Troubleshooting Guide]({% link docs/troubleshooting.md %})
-- Contact support for personalized assistance
+- Read the [API Reference]({% link docs/api.md %}) for detailed technical information
+- Contact support through the Unity Asset Store for personalized assistance
 
 *Function Player is designed to make Unity development more efficient, intuitive, and enjoyable. Let's build better games together!*

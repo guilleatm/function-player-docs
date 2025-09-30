@@ -1,6 +1,8 @@
 title: Function Player Documentation
 description: Official documentation for Function Player - A Unity plugin for visual function execution and debugging
-theme: just-the-docs
+
+# For GitHub Pages native support
+remote_theme: just-the-docs/just-the-docs
 
 url: https://guilleatm.github.io/function-player-docs
 
@@ -17,8 +19,8 @@ nav_sort: case_insensitive
 # Footer content
 footer_content: "Copyright &copy; 2025 Function Player. All rights reserved."
 
-# Color scheme - custom Function Player dark theme
-color_scheme: function_player_dark
+# Color scheme - built-in dark theme
+color_scheme: dark
 
 # Enable back to top link
 back_to_top: true
